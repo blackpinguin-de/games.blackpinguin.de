@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# determine protocol
+RewriteCond %{HTTPS} =on
+RewriteRule ^(.*)$ - [env=proto:https]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ - [env=proto:http]
+
+# determine domain
+RewriteCond %{HTTP_HOST} ^games.(.*)$
+RewriteRule ^.*$ - [env=domain:%1]
+
+# redirects
+RewriteRule ^/?MauDauMau  https://www.%{ENV:domain}/?s=dl&a=2&b=6 [L,R=301]
+RewriteRule ^/?Sim('|%27)rgy %{ENV:proto}://simrgy.%{ENV:domain}/ [L,R=301]
+
+#RewriteRule ^/?MauDauMau  https://www.%{ENV:domain}/?s=dl&a=2&b=6&origin=%{ENV:proto}://games.%{ENV:domain}/ [L,R=301]
+#RewriteRule ^/?Sim('|%27)rgy %{ENV:proto}://simrgy.%{ENV:domain}/?origin=%{ENV:proto}://games.%{ENV:domain}/ [L,R=301]
+
+# Redirect /BrainOfTehZwarm/ http://wiki.gamesmaster-hamburg.de/?title=Brain_of_teh_Zwarm
+# Redirect /BrainOfTehZwarm http://wiki.gamesmaster-hamburg.de/?title=Brain_of_teh_Zwarm	

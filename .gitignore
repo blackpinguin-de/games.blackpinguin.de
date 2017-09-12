@@ -1,0 +1,15 @@
+linux.rar
+linux_x64.rar
+linux_x86.rar
+mac.rar
+mac_x64.rar
+mac_x86.rar
+win_x64.rar
+win_x86.rar
+*.apk
+
+unity_nacl_files_3.x.x
+*.unity3d
+webgl.jsgz
+webgl.datagz
+

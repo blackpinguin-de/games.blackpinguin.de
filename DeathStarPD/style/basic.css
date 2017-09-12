@@ -1,0 +1,78 @@
+
+body {
+    background: #151515;
+    color: #aaaaaa;
+    font-family: Tahoma, Helvetica, Arial, Verdana;
+    letter-spacing: 0.1vw;
+
+    overflow-y: auto;
+    width: 100%;
+
+    font-size: 2.25vw;
+    line-height: 2.75vw;
+    margin: 0px;
+    padding: 0px;
+
+    text-align: justify;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+}
+
+hr { color: #7f7f7f; opacity: 0.5; }
+
+a { color: #ffffff; text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+.b { font-weight: bold; }
+
+#background {
+    background: #141414;
+    background: -webkit-linear-gradient(315deg, #282828, #080808);
+    background:    -moz-linear-gradient(315deg, #282828, #080808);
+    background:      -o-linear-gradient(315deg, #282828, #080808);
+    background:         linear-gradient(135deg, #282828, #080808);
+    background-size:  100%;
+    position: absolute; display: block;
+    left: 0px; top: 0px;
+    width: 100%;
+    margin: 0px; padding: 0px;
+    z-index: -1;
+    min-height: 100%;
+}
+
+.noselect {
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: -moz-none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+    cursor: default;
+}
+
+.noselect::selection {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.noselect input {
+    -webkit-user-select: text;
+     -khtml-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+         -o-user-select: text;
+            user-select: text;
+}
+
+img {
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: -moz-none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+}
+
+.clear { clear: both; float: none; }
