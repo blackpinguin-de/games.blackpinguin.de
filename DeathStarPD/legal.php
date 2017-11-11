@@ -51,7 +51,7 @@
     </section>
 
     <footer>
-        <a id="unity" class="noselect" href="https://unity3d.com/" target="_blank">Made with Unity®</a>
+        <a id="unity" class="noselect" href="https://unity3d.com/" target="_blank" rel="noopener">Made with Unity®</a>
         <a id="imp">Legal Infos</a>
         <div>&copy; 2014 - all rights reserved (students project)<br/>Website by <a href="https://rcl.blackpinguin.de/">Robin C. Ladiges</a>
 		</div>
