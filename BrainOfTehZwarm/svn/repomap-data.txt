@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<root>
+  <label>[root]</label>
+    <branch>
+        <label>Assets</label>
+      <branch>
+          <label>Levels</label>
+          <leaf><label>Credits.unity</label><weight>169</weight><value>100.0</value></leaf>
+          <leaf><label>Highscores.unity</label><weight>169</weight><value>100.0</value></leaf>
+      </branch>
+
+      <branch>
+          <label>Resources</label>
+        <branch>
+            <label>Materials</label>        </branch>
+
+        <branch>
+            <label>Prefabs</label>        </branch>
+
+        <branch>
+            <label>Sounds</label>        </branch>
+
+        <branch>
+            <label>Textures</label>        </branch>
+      </branch>
+
+      <branch>
+          <label>Scripts</label>
+        <branch>
+            <label>Entity</label>
+          <branch>
+              <label>Abstract</label>
+            <branch>
+                <label>Move</label>
+                <leaf><label>MLeftRight.cs</label><weight>179</weight><value>0.0</value></leaf>
+            </branch>
+
+            <branch>
+                <label>System</label>
+                <leaf><label>MessageDispatcher.cs</label><weight>119</weight><value>0.0</value></leaf>
+                <leaf><label>MessageReceiver.cs</label><weight>17</weight><value>0.0</value></leaf>
+                <leaf><label>Observer.cs</label><weight>74</weight><value>0.0</value></leaf>
+                <leaf><label>PriorityQueue.cs</label><weight>112</weight><value>0.0</value></leaf>
+                <leaf><label>State.cs</label><weight>62</weight><value>11.29032258064516</value></leaf>
+                <leaf><label>StateMachine.cs</label><weight>165</weight><value>0.0</value></leaf>
+                <leaf><label>SteeringBehaviors.cs</label><weight>404</weight><value>0.0</value></leaf>
+                <leaf><label>Telegram.cs</label><weight>159</weight><value>0.0</value></leaf>
+            </branch>
+              <leaf><label>Entity.cs</label><weight>152</weight><value>0.0</value></leaf>
+              <leaf><label>GeneralObject.cs</label><weight>793</weight><value>0.0</value></leaf>
+              <leaf><label>ImmovableEntity.cs</label><weight>23</weight><value>0.0</value></leaf>
+              <leaf><label>MovableEntity.cs</label><weight>205</weight><value>0.0</value></leaf>
+              <leaf><label>Projektile.cs</label><weight>125</weight><value>0.0</value></leaf>
+              <leaf><label>RandomObject.cs</label><weight>33</weight><value>0.0</value></leaf>
+          </branch>
+
+          <branch>
+              <label>Concrete</label>
+              <leaf><label>Horizont.cs</label><weight>23</weight><value>0.0</value></leaf>
+              <leaf><label>Human.cs</label><weight>65</weight><value>0.0</value></leaf>
+              <leaf><label>MsgDispatcher.cs</label><weight>23</weight><value>0.0</value></leaf>
+              <leaf><label>PBullet.cs</label><weight>84</weight><value>0.0</value></leaf>
+              <leaf><label>PlayerCollider.cs</label><weight>81</weight><value>0.0</value></leaf>
+              <leaf><label>Zombie.cs</label><weight>127</weight><value>0.0</value></leaf>
+          </branch>
+
+          <branch>
+              <label>GameObjects</label>
+              <leaf><label>AutoUnfall.cs</label><weight>6</weight><value>0.0</value></leaf>
+              <leaf><label>Block.cs</label><weight>103</weight><value>0.0</value></leaf>
+              <leaf><label>Fire.cs</label><weight>74</weight><value>0.0</value></leaf>
+              <leaf><label>Haus.cs</label><weight>8</weight><value>0.0</value></leaf>
+              <leaf><label>KreuzungsBlock.cs</label><weight>6</weight><value>0.0</value></leaf>
+              <leaf><label>StreetBlock.cs</label><weight>6</weight><value>0.0</value></leaf>
+              <leaf><label>Wall.cs</label><weight>48</weight><value>0.0</value></leaf>
+          </branch>
+
+          <branch>
+              <label>States</label>
+              <leaf><label>SHumanAim.cs</label><weight>85</weight><value>0.0</value></leaf>
+              <leaf><label>SHumanFlee.cs</label><weight>48</weight><value>0.0</value></leaf>
+              <leaf><label>SHumanFleeArmed.cs</label><weight>49</weight><value>0.0</value></leaf>
+              <leaf><label>SHumanFleeSlow.cs</label><weight>48</weight><value>0.0</value></leaf>
+              <leaf><label>SHumanWander.cs</label><weight>47</weight><value>0.0</value></leaf>
+          </branch>
+
+          <branch>
+              <label>Weapons</label>
+              <leaf><label>WeaponPistole.cs</label><weight>44</weight><value>0.0</value></leaf>
+              <leaf><label>WeaponShotgun.cs</label><weight>25</weight><value>0.0</value></leaf>
+              <leaf><label>Weapons.cs</label><weight>39</weight><value>0.0</value></leaf>
+          </branch>
+            <leaf><label>Resource.cs</label><weight>70</weight><value>0.0</value></leaf>
+            <leaf><label>SpriteController.cs</label><weight>24</weight><value>0.0</value></leaf>
+            <leaf><label>Utility.cs</label><weight>230</weight><value>15.65217391304348</value></leaf>
+        </branch>
+
+        <branch>
+            <label>GUI</label>
+            <leaf><label>Credits.cs</label><weight>51</weight><value>100.0</value></leaf>
+            <leaf><label>FontDemo.cs</label><weight>105</weight><value>0.0</value></leaf>
+            <leaf><label>GUIMenu.cs</label><weight>161</weight><value>100.0</value></leaf>
+            <leaf><label>GameOver.cs</label><weight>35</weight><value>-282.8571428571429</value></leaf>
+            <leaf><label>Highscores.cs</label><weight>95</weight><value>100.0</value></leaf>
+            <leaf><label>HighscoresMenu.cs</label><weight>42</weight><value>100.0</value></leaf>
+            <leaf><label>MainMenu.cs</label><weight>75</weight><value>-86.66666666666667</value></leaf>
+            <leaf><label>Pause.cs</label><weight>108</weight><value>-77.77777777777779</value></leaf>
+            <leaf><label>PlayerGUI.cs</label><weight>114</weight><value>0.0</value></leaf>
+        </branch>
+
+        <branch>
+            <label>Glyph</label>
+            <leaf><label>GActionButton.cs</label><weight>103</weight><value>0.9708737864077669</value></leaf>
+            <leaf><label>GBordered.cs</label><weight>139</weight><value>13.66906474820144</value></leaf>
+            <leaf><label>GBounds.cs</label><weight>69</weight><value>100.0</value></leaf>
+            <leaf><label>GButton.cs</label><weight>113</weight><value>15.929203539823009</value></leaf>
+            <leaf><label>GCharacter.cs</label><weight>50</weight><value>0.0</value></leaf>
+            <leaf><label>GConcat.cs</label><weight>106</weight><value>48.113207547169814</value></leaf>
+            <leaf><label>GFilled.cs</label><weight>53</weight><value>11.320754716981133</value></leaf>
+            <leaf><label>GImage.cs</label><weight>48</weight><value>10.416666666666668</value></leaf>
+            <leaf><label>GInteger.cs</label><weight>64</weight><value>0.0</value></leaf>
+            <leaf><label>GLimited.cs</label><weight>63</weight><value>0.0</value></leaf>
+            <leaf><label>GString.cs</label><weight>53</weight><value>11.320754716981133</value></leaf>
+            <leaf><label>GVConcat.cs</label><weight>76</weight><value>100.0</value></leaf>
+            <leaf><label>Glyph.cs</label><weight>7</weight><value>0.0</value></leaf>
+            <leaf><label>PlayerHealthBar.cs</label><weight>119</weight><value>0.0</value></leaf>
+            <leaf><label>WhiteboaRdCL.cs</label><weight>237</weight><value>13.080168776371309</value></leaf>
+        </branch>
+          <leaf><label>Inputs.cs</label><weight>76</weight><value>0.0</value></leaf>
+          <leaf><label>LevelScript.cs</label><weight>103</weight><value>0.0</value></leaf>
+          <leaf><label>PlayerCamera.cs</label><weight>14</weight><value>0.0</value></leaf>
+          <leaf><label>PlayerHumanTrigger.cs</label><weight>27</weight><value>0.0</value></leaf>
+          <leaf><label>PlayerObject.cs</label><weight>122</weight><value>-0.819672131147541</value></leaf>
+          <leaf><label>PlayerTrigger.cs</label><weight>51</weight><value>0.0</value></leaf>
+          <leaf><label>RandomChild.cs</label><weight>40</weight><value>0.0</value></leaf>
+      </branch>
+    </branch>
+
+    <branch>
+        <label>ProjectSettings</label>
+        <leaf><label>ClusterInputManager.asset</label><weight>6</weight><value>100.0</value></leaf>
+        <leaf><label>NavMeshAreas.asset</label><weight>133</weight><value>100.0</value></leaf>
+        <leaf><label>ProjectVersion.txt</label><weight>2</weight><value>100.0</value></leaf>
+        <leaf><label>UnityAdsSettings.asset</label><weight>11</weight><value>100.0</value></leaf>
+        <leaf><label>UnityConnectSettings.asset</label><weight>14</weight><value>100.0</value></leaf>
+    </branch>
+</root>
