@@ -17,6 +17,7 @@
 #screenshots > div:first-child {
     position: absolute;
     top: 0px;
+    left: 0px;
     width: 5vw;
     height: 31.75vw;
     background: -webkit-linear-gradient(0deg,  rgba(40,40,40,1), rgba(40,40,40,1), rgba(40,40,40,0));
@@ -31,7 +32,8 @@
     top: 0px;
     width: 5vw;
     height: 31.75vw;
-    left: 93.5vw;
+    /*left: 93.5vw;*/
+    right: 0px;
     background: -webkit-linear-gradient(0deg,  rgba(40,40,40,0), rgba(40,40,40,1), rgba(40,40,40,1));
     background:    -moz-linear-gradient(0deg,  rgba(40,40,40,0), rgba(40,40,40,1), rgba(40,40,40,1));
     background:      -o-linear-gradient(0deg,  rgba(40,40,40,0), rgba(40,40,40,1), rgba(40,40,40,1));
