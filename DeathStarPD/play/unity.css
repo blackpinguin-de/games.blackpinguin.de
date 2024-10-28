@@ -1,0 +1,52 @@
+
+
+div.content {
+	text-align: center;
+	margin: auto;
+	width: 735px;
+	
+	-webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: -moz-none;
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+	
+}
+div.broken, div.missing {
+	margin: auto;
+	position: relative;
+	top: 50%;
+	width: 735px;
+	text-align: center;
+}
+
+div.broken a, div.missing a {
+	height: 63px;
+	position: relative;
+	top: -31px;
+	display: block;
+}
+
+div.broken img, div.missing img {
+	border-width: 0px;
+}
+
+div.broken {
+	display: none;
+}
+
+div#unityPlayer {
+	cursor: default;
+	height: 555px;
+	width: 735px;
+}
+
+#unityPlayer > * {
+	outline: 0;
+}
+
+div.content noscript {
+	font-size: 1.75vw;
+    line-height: 2.0vw;
+}

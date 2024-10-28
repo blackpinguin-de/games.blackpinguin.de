@@ -1,0 +1,42 @@
+
+footer {
+    opacity: 0.3;
+    font-size: 1.6vw;
+    text-align: center;
+    margin: 5vw 5vw 5vw 5vw; padding: 0vw;
+    line-height: 10.5vw;
+}
+
+footer > * { vertical-align: middle; display: inline-block; }
+
+#unity {
+    padding: 7.5vw 1vw 1vw 1vw;
+    vertical-align: top;
+    line-height: 2vw;
+    margin: 0vw; /* 0px 4vw 0px 0vw; */
+    text-align: center;
+    background-image: url(../img/unity-logo-white.png);
+    background-size: auto 5vw;
+    background-position: center 1vw;
+    background-repeat: no-repeat;
+    float: left;
+    width: 16vw;
+    cursor: pointer;
+}
+
+footer > a:hover {
+    background-color: rgba(64,64,64, 0.5);
+    border-radius: 1vw;
+}
+
+footer > a {
+    width: 16vw;
+    float: right;
+    padding: 1vw 1vw 1vw 1vw;
+    line-height: 8.5vw;
+    /*padding-right: 21vw;*/
+}
+
+footer > div {
+    line-height: 2vw;
+}

@@ -1,0 +1,3 @@
+body { background-color: black; color: white; }
+a { color: red; text-decoration: none; }
+a:hover { text-decoration: underline; }

@@ -1,0 +1,117 @@
+body {
+background-image:url(../img/bg2.bmp);
+}
+
+* {
+font-size:9pt;
+font-family:helvetica;
+}
+
+*::-moz-selection {
+color:#000000;
+background-color:#FF0000;
+}
+
+img {
+-moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;
+}
+
+
+a {
+color:#FFFFFF;
+font-weight:bold;
+}
+
+a::-moz-selection {
+color:#00FF00;
+}
+
+select {
+background-color:#666666;
+border-color:#333333;
+}
+
+
+
+*.style-hell {
+background-color:#666666;
+color:#000000;
+}
+
+*.style-dunkel {
+background-color:#333333;
+color:#FFFFFF;
+}
+
+
+input[type=text],input[type=password],textarea {
+border-color:#333333;
+background-color:#666666;
+color:#FFFFFF;
+}
+
+
+input[type=button],input[type=submit],input[type=reset]
+{
+border-color:#000000;
+background-color:#333333;
+color:#FFFFFF;
+}
+
+#rFrame {cursor:default; visibility:hidden; z-index:151; top:50px; position:fixed; left:50px; background-color:#666666; border:2px; border-style:solid; border-color:#333333;}
+
+a.rate0 {
+background-image:url(../img/r0.png);
+width:40px;
+height:40px;
+display:block;
+float:left;
+cursor:pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+a.rate1 {
+background-image:url(../img/r1.png);
+width:40px;
+height:40px;
+display:block;
+float:left;
+cursor:pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+#rClosebut {
+text-align:center;border:1px;border-style:solid;position:absolute;top:0px;width:90px;
+font-weight:bold;color:#ffffff;background:#000000;cursor:default;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+
+#allcontainer { top:5px;width:720px;text-align:left;position:absolute;left:50%;margin-left:-365px; }
+#bannercontainer { position:absolute;top:10px;left:10px;width:707px;height:80px;margin:2px; }
+#buttoncontainer { position:absolute;top:100px;left:10px;width:200px; }
+#usb {
+	display:block;
+	position:absolute;
+	top:100px;   left:10px;
+	width:150px; height:236px;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;
+	cursor:default;
+}
+#maincontainer{ position:absolute;top:100px;left:170px;width:550px; }
+#content { position:relative;left:20px;width:510px;color:#FFFFFF; }
+#content-ext { visibility:hidden;width:0px;height:0px;display:none; }
+#login { position:relative;left:20px;width:510px;color:#FFFFFF;font-size:14px; }
+div.tbrand { width:550px;height:20px; }
+
+/*#content > div:first-child { display: inline-block; }*/

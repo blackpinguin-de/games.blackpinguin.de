@@ -1,0 +1,24 @@
+*.banner
+{
+background-image:url(../img/ban1_mouseout.png);
+width:150px;
+height:35px;
+text-align:center;
+color:#FFFFFF;
+font-size:14px;
+line-height: 35px;
+margin:2px;
+text-decoration:none;
+display:block;
+cursor:pointer;
+font-weight:bold;
+
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+a.banner
+{
+color:#555555;
+}

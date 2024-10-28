@@ -1,0 +1,51 @@
+
+header {
+    margin: 8vw 0px 8vw 0px; padding: 0px;
+
+    position: relative;
+    left: 22vw;
+    width: 56vw;
+
+    font-size: 2vw;
+    line-height: 2.5vw;
+    letter-spacing: 0.2vw;
+}
+
+#logo {
+    margin: 0px; padding: 0px;
+
+    position: relative;
+    /* width: 84vmin; height: 24vmin; */
+    width: 100%; height: 16vw;
+
+    opacity: 0.9;
+    background-image: url(../img/logo.white.png);
+    background-size: 100% 100%;
+}
+
+#soon {
+    margin: 0px; padding: 0px;
+
+    position: absolute;
+    left: 28.5714285714%;  width: 71.4285714286%;
+    text-align: center;
+    margin-top: -6vw;
+    height: 6vw;
+    line-height: 6vw;
+
+    display: inline-block;
+    color: white;
+    opacity: 0.3;
+}
+
+#future {
+    margin: 0px; padding: 0px;
+
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+    display: inline-block;
+    opacity: 0.75;
+}
+

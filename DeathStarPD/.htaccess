@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^imprint$ imprint.php [NC,L]
+RewriteRule ^legal$ legal.php [NC,L]
+
+Header set Set-Cookie "Cookie=Chocolate, Sugar, Flour, Eggs; Max-Age=2592000; path=/DeathstarPD/;"
