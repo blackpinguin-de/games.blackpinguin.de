@@ -179,6 +179,9 @@ section.float > div > div > p {
 }
 
 #play img { width: 10vw; height:10vw; opacity: 0.9; }
+#play p.download { position: relative; }
+#play a.github { position: absolute; left: 0; }
+#play a.github img { width: auto; height: 1em; }
 
 #play > div:first-of-type > p   { line-height: 2vw; font-size: 1.5vw;}
 #play > div:first-of-type > p  > a:first-of-type {
