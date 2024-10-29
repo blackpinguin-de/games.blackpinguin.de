@@ -40,6 +40,7 @@ function ban_createL(text,url)
 
 function ban_content(obj,url)
 	{
+	if (url == "imp") { window.location = "../impressum.html"; return; }
 	//for(var i=0;i<buttoncount;i++)
 	//	{
 	//	document.getElementById("a"+i).style.backgroundImage="url(./img/ban1_mouseout.png)";
